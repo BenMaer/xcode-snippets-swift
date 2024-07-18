@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>Setup Bindings Function</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    func setupBindings() {
+        &lt;#viewModel.outputs#&gt;.&lt;#output#&gt;
+            .receive(on: DispatchQueue.main)
+            .sink(receiveValue: Closure.weak(self, closure: { $0.&lt;#doSomething#&gt; }))
+            .store(in: &amp;cancellables)
+    }
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C399C94A-3597-41FE-A2B8-512BAA9DC1CA</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Generates a setupBindings function with a template for a standard Combine binding</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Setup Bindings Function</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
