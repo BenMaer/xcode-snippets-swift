@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>View Model Template</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>protocol &lt;#Model#&gt;Inputs {
+    
+}
+
+protocol &lt;#Model#&gt;Outputs {
+    
+}
+
+&lt;#final class#&gt; &lt;#Model#&gt; {
+    
+}
+
+protocol &lt;#Model#&gt;Type {
+    var inputs: &lt;#Model#&gt;Inputs { get }
+    var outputs: &lt;#Model#&gt;Outputs { get }
+}
+
+extension &lt;#Model#&gt;: &lt;#Model#&gt;Type {
+    var inputs: &lt;#Model#&gt;Inputs { self }
+    var outputs: &lt;#Model#&gt;Outputs { self }
+}
+
+extension &lt;#Model#&gt;: &lt;#Model#&gt;Inputs {}
+
+extension &lt;#Model#&gt;: &lt;#Model#&gt;Outputs {}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>CCBCA472-4E19-4E6B-98EE-B8DAD49EAD5D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Creates a template for a standard view model</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>View Model Template</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
