@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>Protocol Types Extension Template</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>extension &lt;#protocol#&gt; {
+    typealias Types = &lt;#protocol#&gt;s
+    typealias &lt;#struct#&gt; = Types.&lt;#struct#&gt;
+}
+
+enum &lt;#protocol#&gt;s {
+    struct &lt;#struct#&gt; {
+        
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>649A2254-02DB-4543-9E7D-942C5DD890CB</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Creates an extension on a protocol, and an enum for the protocol, to host new Types.</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Protocol Types Extension Template</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
