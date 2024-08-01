@@ -10,7 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>    func setupBindings() {
-        &lt;#viewModel.outputs#&gt;.&lt;#output#&gt;
+        &lt;#model.outputs#&gt;.&lt;#output#&gt;
             .receive(on: DispatchQueue.main)
             .sink(receiveValue: Closure.weak(self, closure: { $0.&lt;#doSomething#&gt; }))
             .store(in: &amp;cancellables)
