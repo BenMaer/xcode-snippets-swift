@@ -17,13 +17,13 @@ protocol &lt;#Model#&gt;Outputs {
     
 }
 
-&lt;#final class#&gt; &lt;#Model#&gt; {
-    
-}
-
 protocol &lt;#Model#&gt;Type {
     var inputs: &lt;#Model#&gt;Inputs { get }
     var outputs: &lt;#Model#&gt;Outputs { get }
+}
+
+&lt;#final class#&gt; &lt;#Model#&gt; {
+    
 }
 
 extension &lt;#Model#&gt;: &lt;#Model#&gt;Type {
