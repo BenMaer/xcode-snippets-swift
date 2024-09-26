@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>Combine Sink and Store</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>            .sink(receiveValue: Closure.weak(self, closure: { $0.&lt;#something#&gt;(&lt;#$1#&gt;) }))
+            .store(in: &amp;cancellables)
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>DC3303EA-9386-4723-B611-D7BB01AC96C8</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Combine Sink and Store</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Combine Sink and Store</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
